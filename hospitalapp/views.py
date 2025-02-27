@@ -29,6 +29,8 @@ def doctors(request):
     return render(request, 'doctors.html')
 
 
+def appoint(request):
+    return render(request, 'appointment.html')
 
 
 
